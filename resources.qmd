@@ -1,0 +1,203 @@
+---
+title: "Resources & Materials"
+---
+
+## Pre-Workshop Requirements
+
+### Software Installation
+
+Before attending the workshop, please complete the software installation following our [Module 0 Installation Guide](module-0/installation.qmd).
+
+**Essential Software:**
+- R (≥4.3.0) and RStudio
+- Python (≥3.8) with Miniconda/Anaconda
+- Command-line tools via Bioconda
+- Specialized phylogenetics software
+
+### Hardware Requirements
+
+- **Laptop:** Administrative privileges required for software installation
+- **RAM:** Minimum 8GB, 16GB recommended  
+- **Storage:** At least 20GB free space for data and software
+- **OS:** Windows 10+, macOS 10.15+, or Linux (Ubuntu 18.04+)
+
+---
+
+## Datasets
+
+### Primary Workshop Datasets
+
+All datasets will be provided during the workshop via:
+
+1. **Local servers** - Fast access during hands-on sessions
+2. **Cloud storage** - Download links for persistent access
+3. **USB drives** - Backup distribution method
+
+**Dataset Overview:**
+
+:::{.dataset-card}
+**SARS-CoV-2 Global Surveillance Data**
+- 500 complete genomes from different lineages
+- Temporal sampling: 2020-2025  
+- Geographic diversity: 6 continents
+- Use cases: Phylogenetics, molecular clock, selection
+:::
+
+:::{.dataset-card}
+**Influenza H3N2 Evolution**
+- 10 years of seasonal influenza sequences
+- HA and NA gene segments
+- Antigenic site annotations
+- Use cases: Selection analysis, drug resistance
+:::
+
+:::{.dataset-card}
+**HIV-1 Drug Resistance**
+- Clinical isolates with resistance profiles
+- Pol gene sequences with phenotype data
+- Longitudinal patient samples
+- Use cases: Resistance evolution, population structure
+:::
+
+:::{.dataset-card}
+**Hepatitis B Outbreak Investigation**
+- Simulated outbreak scenario
+- 150 linked cases with metadata
+- Epidemiological data included
+- Use cases: Outbreak analysis, transmission inference
+:::
+
+---
+
+## Software Tools & Packages
+
+### Core Bioinformatics Tools
+
+**Quality Control & Assembly**
+- [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - Sequence quality assessment
+- [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) - Read trimming and filtering
+- [SPAdes](https://cab.spbu.ru/software/spades/) - Genome assembly
+- [Minimap2](https://github.com/lh3/minimap2) - Sequence alignment
+
+**Phylogenetic Analysis**
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/) - Multiple sequence alignment
+- [IQ-TREE](http://www.iqtree.org/) - Maximum likelihood phylogenetic inference
+- [BEAST2](https://www.beast2.org/) - Bayesian phylogenetics and molecular dating
+- [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) - Tree visualization
+
+### R Packages
+
+**Core Packages**
+```r
+# Phylogenetics and evolution
+ape, phytools, ggtree, treeio
+
+# Population genetics  
+adegenet, poppr, hierfstat
+
+# Sequence analysis
+Biostrings, seqinr, muscle
+
+# Data manipulation and visualization
+tidyverse, ggplot2, plotly
+```
+
+**Installation Commands**
+```r
+# CRAN packages
+install.packages(c("ape", "phytools", "adegenet", "tidyverse"))
+
+# Bioconductor packages
+BiocManager::install(c("ggtree", "Biostrings", "muscle"))
+```
+
+### Python Libraries
+
+**Essential Libraries**
+```python
+# Core scientific computing
+numpy, pandas, scipy, matplotlib, seaborn
+
+# Bioinformatics
+biopython, scikit-bio, dendropy
+
+# Phylogenetics
+ete3, toytree, phylopandas
+```
+
+---
+
+## External Resources
+
+### Databases & Repositories
+
+**Sequence Databases**
+- [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/) - Comprehensive sequence database
+- [GISAID](https://gisaid.org/) - Influenza and coronavirus sequences  
+- [HIV Database](https://www.hiv.lanl.gov/) - Los Alamos HIV sequence database
+- [ViPR](https://www.viprbrc.org/) - Virus pathogen resource
+
+**Phylogenetic Resources**
+- [TimeTree](http://timetree.org/) - Evolutionary timescale database
+- [Tree of Life](https://tree.opentreeoflife.org/) - Open tree of life project
+- [iTOL](https://itol.embl.de/) - Interactive tree visualization
+
+### Educational Materials
+
+**Online Courses**
+- [Coursera Bioinformatics](https://www.coursera.org/specializations/bioinformatics) - University of California San Diego
+- [edX Computational Biology](https://www.edx.org/course/computational-biology) - MIT
+- [Applied Phylogenetics](https://bodegaphylo.wixsite.com/bodegaphylo) - Bodega Bay workshop materials
+
+**Books & Publications**
+- *Molecular Evolution: A Statistical Approach* - Yang, 2006
+- *Inferring Phylogenies* - Felsenstein, 2003  
+- *The Phylogenetic Handbook* - Lemey et al., 2009
+- Current protocols and recent reviews (bibliography provided)
+
+---
+
+## Computing Resources
+
+### Workshop Infrastructure
+
+**Local Computing**
+- High-performance workstations available
+- Pre-installed software environment
+- Local dataset mirrors for fast access
+
+**Cloud Resources** *(If Available)*
+- AWS EC2 instances for large analyses
+- Shared storage for collaborative work
+- Jupyter notebooks for interactive analysis
+
+### After the Workshop
+
+**Recommended Platforms**
+- [Galaxy Project](https://usegalaxy.org/) - Web-based bioinformatics platform
+- [CIPRES](https://www.phylo.org/) - Phylogenetic analysis web portal  
+- [Google Colab](https://colab.research.google.com/) - Free Jupyter notebooks
+- [Binder](https://mybinder.org/) - Reproducible computational environments
+
+---
+
+## Additional Support
+
+### Documentation
+- Workshop materials will remain accessible post-workshop
+- Step-by-step protocols for all major analyses
+- Troubleshooting guides for common issues
+
+### Community Resources
+- **Slack workspace** for continued discussion
+- **GitHub repository** with all workshop materials
+- **Email list** for announcements and updates
+
+### Recommended Follow-up
+- Local bioinformatics user groups
+- Annual conferences (SMBE, Evolution, ISCB)
+- Online communities (Biostars, r/bioinformatics)
+
+---
+
+*All software is free and open-source unless otherwise noted. Installation support will be provided during Module 0.*

@@ -1,0 +1,76 @@
+---
+title: "Module 0: Workshop Setup"
+subtitle: "Getting Your Computing Environment Ready"
+---
+
+## Overview
+
+This module ensures all participants have the necessary software and tools installed for the viral genomics workshop. Complete this setup **before** the workshop begins to maximize hands-on learning time.
+
+## Learning Objectives
+
+By the end of this module, you will have:
+
+- ✅ Installed essential bioinformatics software
+- ✅ Verified your computing environment
+- ✅ Downloaded initial datasets  
+- ✅ Tested key analysis pipelines
+- ✅ Connected to workshop resources
+
+---
+
+## Installation Checklist
+
+### Core Requirements
+
+**Essential Software Installation:**
+
+- [ ] **R Statistical Environment** (≥4.3.0)
+- [ ] **RStudio Desktop** (latest version)
+- [ ] **Python** (≥3.8) via Miniconda
+- [ ] **Bioconda** package manager
+- [ ] **Git** version control
+- [ ] **Text Editor** (VS Code, Sublime, or similar)
+
+### Verification Tests
+
+After installation, verify each tool:
+
+```bash
+# Check versions
+R --version
+python --version
+conda --version
+git --version
+```
+
+---
+
+## Next Steps
+
+1. **Complete Installation:** Follow the [detailed installation guide](installation.qmd)
+2. **Test Setup:** Run verification scripts provided
+3. **Join Workshop Slack:** Connect with instructors and participants
+4. **Review Prerequisites:** Familiarize yourself with basic command-line usage
+
+---
+
+## Troubleshooting
+
+**Common Issues:**
+- Administrative privileges required
+- Antivirus software blocking installations
+- Network restrictions in institutional environments
+- Version compatibility problems
+
+**Getting Help:**
+- Check our [troubleshooting guide](troubleshooting.qmd)
+- Post in workshop Slack channel
+- Email technical support: `tech.support@workshop.org`
+- Arrive early on Day 1 for setup assistance
+
+---
+
+**⚠️ Important:** Complete this setup before the workshop. Technical difficulties during the workshop will limit your ability to participate in hands-on exercises.
+
+**🎯 Goal:** A fully functional bioinformatics environment ready for viral genomics analysis.

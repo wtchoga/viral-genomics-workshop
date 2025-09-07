@@ -1,0 +1,136 @@
+---
+title: "Module 1: Viral Genomics Fundamentals"
+subtitle: "Understanding viral genomes and their evolution"
+---
+
+## Module Overview
+
+This foundational module introduces key concepts in viral genomics, exploring viral diversity, genome organization, and the unique evolutionary features of viral pathogens.
+
+## Learning Objectives
+
+By the end of this module, you will:
+
+- **Understand** viral genome organization and diversity
+- **Recognize** key evolutionary processes shaping viral genomes
+- **Identify** major viral genome types and their characteristics
+- **Navigate** genomic databases and resources
+- **Apply** basic concepts to real viral genomic data
+
+---
+
+## Topics Covered
+
+### 1. [Viral Diversity and Classification](viral-diversity.qmd)
+- Viral taxonomy and classification systems
+- Baltimore classification of viral genomes
+- Host range and tissue tropism
+- Emerging and re-emerging viruses
+
+### 2. [Genomic Data Types and Resources](genomic-data.qmd)  
+- Sequence databases (NCBI, GISAID, specialized repositories)
+- Data formats and file types
+- Quality metrics and metadata
+- Accessing and downloading genomic data
+
+### 3. **Hands-on Practical: Database Exploration**
+- Navigate major sequence databases
+- Download representative viral genomes
+- Examine genome annotations and metadata
+- Compare genome sizes and organizations
+
+---
+
+## Key Concepts
+
+:::{.callout-important}
+### Viral Genome Features
+
+**DNA Viruses:**
+- Double-stranded (dsDNA): Herpesviruses, Poxviruses
+- Single-stranded (ssDNA): Parvoviruses, Circoviruses
+
+**RNA Viruses:**
+- Positive-sense (+ssRNA): Coronaviruses, Flaviviruses
+- Negative-sense (-ssRNA): Influenza, Filoviruses  
+- Double-stranded (dsRNA): Rotaviruses
+- Retroviruses: HIV, HTLV
+:::
+
+:::{.callout-note}
+### Evolutionary Pressures
+
+**Mutation Rates:**
+- DNA viruses: ~10⁻⁶ to 10⁻⁸ per nucleotide per replication
+- RNA viruses: ~10⁻³ to 10⁻⁵ per nucleotide per replication
+
+**Selection Forces:**
+- Host immune pressure
+- Antiviral drug resistance
+- Transmission fitness
+- Virulence-transmissibility trade-offs
+:::
+
+---
+
+## Practical Exercises
+
+### Exercise 1.1: Viral Genome Comparison
+Compare genome sizes and organizations across major viral families:
+
+```r
+# Load required libraries
+library(Biostrings)
+library(ape)
+library(ggplot2)
+
+# Example: Compare coronavirus genomes
+sars_cov2 <- read.GenBank("NC_045512")
+mers_cov <- read.GenBank("NC_019843")
+sars_cov1 <- read.GenBank("NC_004718")
+```
+
+### Exercise 1.2: Database Navigation
+Practice accessing viral genomic data from major repositories:
+
+1. **NCBI Virus:** Browse taxonomy and download sequences
+2. **GISAID:** Explore SARS-CoV-2 global surveillance data
+3. **ViPR:** Access curated viral pathogen sequences
+
+---
+
+## Resources
+
+### Required Readings
+- Viral genome organization review papers
+- Baltimore classification system
+- Database documentation and tutorials
+
+### Supplementary Materials
+- Interactive viral genome browsers
+- Phylogenetic trees of major viral families
+- Timeline of viral discovery and classification
+
+### Software Tools
+- **R packages:** `ape`, `Biostrings`, `rentrez`
+- **Web resources:** NCBI Virus, GISAID, ViPR databases
+- **Visualization:** Genome browsers, annotation tools
+
+---
+
+## Assessment
+
+### Knowledge Check
+- Viral genome classification quiz
+- Database navigation practical
+- Genome feature identification exercises
+
+### Key Takeaways
+- Viral genomes show tremendous diversity in size, organization, and replication strategies
+- Different genome types face distinct evolutionary pressures
+- Understanding genome context is essential for evolutionary analysis
+- High-quality databases provide rich resources for comparative genomics
+
+---
+
+**Next Module:** [Module 2: Sequence Analysis](../module-2/index.qmd) - Processing and analyzing viral sequence data

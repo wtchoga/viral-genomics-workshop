@@ -1,0 +1,94 @@
+---
+title: "Workshop Schedule"
+---
+
+## Daily Schedule Overview
+
+The Viral Genomics and Evolution Workshop runs over **5 intensive days** with a mix of lectures, hands-on exercises, and group discussions.
+
+### Day 1: Foundations
+**Date:** September [Day], 2025
+
+| Time | Topic | Instructor | Format |
+|------|-------|------------|--------|
+| 09:00-09:30 | Welcome & Introductions | All | Plenary |
+| 09:30-10:30 | [Module 0: Workshop Setup](module-0/index.qmd) | Tech Support | Hands-on |
+| 10:30-11:00 | *Coffee Break* | | |
+| 11:00-12:00 | [Module 1: Viral Genomics Fundamentals](module-1/index.qmd) | Lead Instructor | Lecture |
+| 12:00-13:00 | [Viral Diversity & Evolution](module-1/viral-diversity.qmd) | Evolutionary Biologist | Lecture |
+| 13:00-14:00 | *Lunch Break* | | |
+| 14:00-15:00 | [Genomic Data Types & Resources](module-1/genomic-data.qmd) | Bioinformatics Specialist | Hands-on |
+| 15:00-15:30 | *Coffee Break* | | |
+| 15:30-17:00 | Module 1 Practical Exercises | All | Hands-on |
+
+### Day 2: Sequence Analysis
+**Date:** September [Day], 2025
+
+| Time | Topic | Instructor | Format |
+|------|-------|------------|--------|
+| 09:00-10:00 | [Module 2: Sequence Analysis Overview](module-2/index.qmd) | Genomics Expert | Lecture |
+| 10:00-10:30 | *Coffee Break* | | |
+| 10:30-12:00 | [Quality Control & Preprocessing](module-2/quality-control.qmd) | Bioinformatics Specialist | Hands-on |
+| 12:00-13:00 | *Lunch Break* | | |
+| 13:00-14:30 | [Genome Assembly Methods](module-2/assembly.qmd) | Computational Biologist | Lecture + Hands-on |
+| 14:30-15:00 | *Coffee Break* | | |
+| 15:00-17:00 | Module 2 Practical: Assembly Pipeline | All | Hands-on |
+
+### Day 3: Phylogenetics
+**Date:** September [Day], 2025
+
+| Time | Topic | Instructor | Format |
+|------|-------|------------|--------|
+| 09:00-10:00 | [Module 3: Phylogenetic Methods](module-3/index.qmd) | Phylogeneticist | Lecture |
+| 10:00-10:30 | *Coffee Break* | | |
+| 10:30-12:00 | [Multiple Sequence Alignment](module-3/alignment.qmd) | Bioinformatics Expert | Hands-on |
+| 12:00-13:00 | *Lunch Break* | | |
+| 13:00-14:30 | [Tree Building & Model Selection](module-3/tree-building.qmd) | Phylogeneticist | Lecture + Hands-on |
+| 14:30-15:00 | *Coffee Break* | | |
+| 15:00-17:00 | Module 3 Practical: Phylogenetic Analysis | All | Hands-on |
+
+### Day 4: Evolution & Population Genomics
+**Date:** September [Day], 2025
+
+| Time | Topic | Instructor | Format |
+|------|-------|------------|--------|
+| 09:00-10:00 | [Module 4: Evolutionary Analysis](module-4/index.qmd) | Evolutionary Biologist | Lecture |
+| 10:00-10:30 | *Coffee Break* | | |
+| 10:30-12:00 | [Molecular Clock & Dating](module-4/molecular-clock.qmd) | Phylogeneticist | Lecture + Hands-on |
+| 12:00-13:00 | *Lunch Break* | | |
+| 13:00-14:00 | [Selection Pressure Analysis](module-4/selection-analysis.qmd) | Evolutionary Biologist | Hands-on |
+| 14:00-14:30 | *Coffee Break* | | |
+| 14:30-15:30 | [Module 5: Population Genomics](module-5/index.qmd) | Population Geneticist | Lecture |
+| 15:30-17:00 | [Genetic Diversity Analysis](module-5/genetic-diversity.qmd) | Population Geneticist | Hands-on |
+
+### Day 5: Advanced Applications
+**Date:** September [Day], 2025
+
+| Time | Topic | Instructor | Format |
+|------|-------|------------|--------|
+| 09:00-10:00 | [Module 6: Advanced Topics](module-6/index.qmd) | Lead Instructor | Lecture |
+| 10:00-10:30 | *Coffee Break* | | |
+| 10:30-12:00 | [Recombination Analysis](module-6/recombination.qmd) | Computational Biologist | Hands-on |
+| 12:00-13:00 | *Lunch Break* | | |
+| 13:00-14:00 | [Drug Resistance Evolution](module-6/drug-resistance.qmd) | Clinical Virologist | Lecture |
+| 14:00-14:30 | *Coffee Break* | | |
+| 14:30-15:30 | [Module 7: Outbreak Investigation](module-7/outbreak-analysis.qmd) | Epidemiologist | Case Study |
+| 15:30-16:30 | [Genomic Surveillance](module-7/surveillance.qmd) | Public Health Expert | Discussion |
+| 16:30-17:00 | Wrap-up & Next Steps | All | Plenary |
+
+## Workshop Materials
+
+### Prerequisites
+- Laptop with administrative privileges
+- Basic command-line experience recommended
+- Molecular biology background helpful
+
+### Software Installation
+Complete [Module 0 Installation Guide](module-0/installation.qmd) before the workshop begins.
+
+### Datasets
+All datasets will be provided via cloud storage and local servers during the workshop.
+
+---
+
+*Schedule subject to minor adjustments based on group progress and discussion needs.*

@@ -1,0 +1,90 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Viral Genomics and Evolution Workshop"
+  description: "A comprehensive workshop on viral genomics and pathogen evolution analysis"
+  
+  navbar:
+    logo: "images/logo.png"
+    title: "Viral Genomics Workshop"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: instructors.qmd
+        text: Instructors
+      - href: resources.qmd
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com/wtchoga/viral-genomics-workshop
+        aria-label: GitHub
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Getting Started"
+        contents:
+          - module-0/index.qmd
+          - module-0/installation.qmd
+      - section: "Fundamentals"
+        contents:
+          - module-1/index.qmd
+          - module-1/viral-diversity.qmd
+          - module-1/genomic-data.qmd
+      - section: "Sequence Analysis"
+        contents:
+          - module-2/index.qmd
+          - module-2/quality-control.qmd
+          - module-2/assembly.qmd
+      - section: "Phylogenetic Analysis"
+        contents:
+          - module-3/index.qmd
+          - module-3/alignment.qmd
+          - module-3/tree-building.qmd
+      - section: "Evolution Analysis"
+        contents:
+          - module-4/index.qmd
+          - module-4/molecular-clock.qmd
+          - module-4/selection-analysis.qmd
+      - section: "Population Genomics"
+        contents:
+          - module-5/index.qmd
+          - module-5/genetic-diversity.qmd
+          - module-5/structure-analysis.qmd
+      - section: "Advanced Topics"
+        contents:
+          - module-6/index.qmd
+          - module-6/recombination.qmd
+          - module-6/drug-resistance.qmd
+      - section: "Practical Applications"
+        contents:
+          - module-7/index.qmd
+          - module-7/outbreak-analysis.qmd
+          - module-7/surveillance.qmd
+
+  page-footer:
+    left: |
+      Viral Genomics and Evolution Workshop 2025  
+      Regent Hotel, Gaborone, Botswana
+    right: |
+      Built with [Quarto](https://quarto.org/)
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px

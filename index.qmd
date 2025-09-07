@@ -1,0 +1,77 @@
+---
+title: "Viral Genomics and Evolution Workshop 2025"
+subtitle: "Understanding Pathogen Evolution Through Genomic Analysis"
+---
+
+## Welcome to the Workshop
+
+This intensive workshop focuses on viral genomics and pathogen evolution analysis, designed for researchers, graduate students, and public health professionals interested in understanding viral evolution through computational approaches.
+
+### Workshop Overview
+
+The **Viral Genomics and Evolution Workshop** brings together cutting-edge methodologies in:
+
+- **Viral sequence analysis** and quality control
+- **Phylogenetic reconstruction** and evolutionary inference  
+- **Population genomics** of viral pathogens
+- **Molecular epidemiology** and outbreak investigation
+- **Selection pressure** and adaptation analysis
+- **Drug resistance** evolution and surveillance
+
+### Learning Objectives
+
+By the end of this workshop, participants will be able to:
+
+1. **Process and analyze** viral genomic data from raw sequencing reads
+2. **Construct and interpret** phylogenetic trees for evolutionary analysis
+3. **Identify signatures** of natural selection in viral genomes  
+4. **Analyze population structure** and genetic diversity in viral populations
+5. **Apply genomic approaches** to outbreak investigation and surveillance
+6. **Use modern bioinformatics tools** for viral genomics research
+
+### Workshop Details
+
+- **Dates:** September 2025
+- **Venue:** Regent Hotel, Gaborone, Botswana
+- **Format:** Hands-on computational workshops with lectures
+- **Prerequisites:** Basic knowledge of molecular biology and command-line interface
+
+### Target Audience
+
+This workshop is designed for:
+
+- Graduate students in virology, epidemiology, or bioinformatics
+- Postdoctoral researchers working with viral genomics
+- Public health professionals involved in surveillance
+- Clinical researchers studying viral evolution
+- Bioinformaticians interested in pathogen genomics
+
+### Course Structure
+
+The workshop is organized into **8 modules** covering:
+
+:::{.column-margin}
+![Workshop participants will gain hands-on experience with state-of-the-art viral genomics tools and methods.](images/genomics-analysis.png)
+:::
+
+1. **Module 0:** Setup and Introduction
+2. **Module 1:** Viral Genomics Fundamentals  
+3. **Module 2:** Sequence Processing and Assembly
+4. **Module 3:** Phylogenetic Analysis
+5. **Module 4:** Evolutionary Analysis
+6. **Module 5:** Population Genomics
+7. **Module 6:** Advanced Topics
+8. **Module 7:** Practical Applications
+
+Each module combines theoretical presentations with hands-on computational exercises using real viral genomic datasets.
+
+### Getting Started
+
+1. Review the [**Schedule**](schedule.qmd) for detailed timing and topics
+2. Meet our [**Instructors**](instructors.qmd) and their expertise areas
+3. Access [**Resources**](resources.qmd) including software installation guides
+4. Begin with [**Module 0**](module-0/index.qmd) for workshop setup
+
+---
+
+*This workshop emphasizes practical skills development through interactive exercises and real-world applications in viral genomics research.*

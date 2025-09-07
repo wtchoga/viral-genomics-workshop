@@ -1,0 +1,143 @@
+---
+title: "Instructors & Faculty"
+---
+
+## Workshop Faculty
+
+Meet the expert instructors who will guide you through viral genomics and evolution analysis.
+
+### Lead Instructor
+
+:::{.instructor}
+**Dr. [Your Name]**  
+*Workshop Organizer & Lead Instructor*
+
+- **Affiliation:** [Your Institution]
+- **Expertise:** Viral genomics, pathogen evolution, molecular epidemiology
+- **Background:** [Brief description of your background and research focus]
+- **Contact:** [your.email@institution.edu]
+
+![Dr. [Your Name]](images/instructor-1.jpg){.instructor-photo}
+:::
+
+---
+
+### Core Faculty
+
+:::{.instructor}
+**Dr. [Phylogeneticist Name]**  
+*Phylogenetic Analysis & Evolutionary Biology*
+
+- **Affiliation:** [Institution]
+- **Expertise:** Phylogenetic methods, molecular evolution, Bayesian inference
+- **Selected Publications:** Key papers in viral phylogenetics
+- **Teaching:** Modules 3, 4 - Phylogenetics and molecular clock analysis
+
+![Dr. [Name]](images/instructor-2.jpg){.instructor-photo}
+:::
+
+:::{.instructor}
+**Dr. [Bioinformatician Name]**  
+*Computational Biology & Sequence Analysis*
+
+- **Affiliation:** [Institution] 
+- **Expertise:** Genome assembly, sequence analysis, pipeline development
+- **Research Focus:** Viral genome reconstruction and variant calling
+- **Teaching:** Modules 1, 2 - Fundamentals and sequence processing
+
+![Dr. [Name]](images/instructor-3.jpg){.instructor-photo}
+:::
+
+:::{.instructor}
+**Dr. [Population Geneticist Name]**  
+*Population Genomics & Genetic Diversity*
+
+- **Affiliation:** [Institution]
+- **Expertise:** Population genetics, demographic inference, genetic structure
+- **Research:** Viral population dynamics and transmission patterns  
+- **Teaching:** Module 5 - Population genomics analysis
+
+![Dr. [Name]](images/instructor-4.jpg){.instructor-photo}
+:::
+
+---
+
+### Specialized Faculty
+
+:::{.instructor}
+**Dr. [Epidemiologist Name]**  
+*Molecular Epidemiology & Outbreak Investigation*
+
+- **Affiliation:** [Public Health Institution/CDC/WHO]
+- **Expertise:** Outbreak investigation, molecular epidemiology, surveillance
+- **Experience:** Real-world outbreak response and genomic epidemiology
+- **Teaching:** Module 7 - Applied outbreak analysis
+
+![Dr. [Name]](images/instructor-5.jpg){.instructor-photo}
+:::
+
+:::{.instructor}
+**Dr. [Clinical Virologist Name]**  
+*Clinical Virology & Drug Resistance*
+
+- **Affiliation:** [Medical School/Hospital]
+- **Expertise:** Clinical virology, antiviral resistance, diagnostic genomics
+- **Research:** Viral drug resistance mechanisms and clinical applications
+- **Teaching:** Module 6 - Drug resistance evolution
+
+![Dr. [Name]](images/instructor-6.jpg){.instructor-photo}
+:::
+
+---
+
+### Teaching Assistants
+
+**[TA Name 1]**  
+*PhD Student, [Institution]*  
+Expertise: Viral genomics, phylogenetics
+
+**[TA Name 2]**  
+*Postdoc, [Institution]*  
+Expertise: Population genomics, bioinformatics
+
+**[TA Name 3]**  
+*Research Scientist, [Institution]*  
+Expertise: Sequence analysis, molecular evolution
+
+---
+
+### Technical Support
+
+**[Technical Coordinator Name]**  
+*Systems Administrator & IT Support*
+
+- **Role:** Software installation, computing infrastructure, technical troubleshooting
+- **Available:** Throughout the workshop for technical assistance
+- **Contact:** [tech.support@workshop.org]
+
+---
+
+## Faculty Expertise Areas
+
+| Module | Primary Instructor | Supporting Faculty | Focus Area |
+|--------|-------------------|-------------------|------------|
+| 0 | Technical Team | All | Setup & Installation |
+| 1 | Dr. [Bioinformatician] | Dr. [Your Name] | Viral Genomics Fundamentals |
+| 2 | Dr. [Bioinformatician] | TAs | Sequence Analysis |
+| 3 | Dr. [Phylogeneticist] | Dr. [Your Name] | Phylogenetic Methods |
+| 4 | Dr. [Phylogeneticist] | Dr. [Population Geneticist] | Evolutionary Analysis |
+| 5 | Dr. [Population Geneticist] | TAs | Population Genomics |
+| 6 | Dr. [Clinical Virologist] | Dr. [Bioinformatician] | Advanced Applications |
+| 7 | Dr. [Epidemiologist] | Dr. [Your Name] | Real-world Applications |
+
+---
+
+### Contact Information
+
+For questions about workshop content or logistics, please contact:
+
+- **General Inquiries:** [workshop@institution.edu]  
+- **Technical Issues:** [tech.support@workshop.org]
+- **Academic Questions:** [academic@workshop.org]
+
+*All instructors will be available throughout the workshop for questions, discussions, and individual consultation during practical sessions.*
